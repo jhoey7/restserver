@@ -22,7 +22,7 @@ class Model_Users extends CI_Model
 			$descerr = "No KTP Harus Numeric";
 		} elseif(!is_numeric($data["tgllahir"])) {
 			$err = true;
-			$descerr = "Tgl Lahir Harus Numeric";
+			$descerr = "Tgl Lahir Harus Numeric bro.";
 		}
 		
 		if($err === true){
